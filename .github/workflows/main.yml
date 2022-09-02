@@ -19,3 +19,5 @@ jobs:
       username: wilson
   build:
     uses: seanshahkarami/actions/.github/workflows/go.yml@main
+    with:
+      go-version: "^1.19"

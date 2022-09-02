@@ -4,16 +4,16 @@ on:
 jobs:
   call-workflow:
     name: Build Images
-    uses: seanshahkarami/common/.github/workflows/example.yml
+    uses: seanshahkarami/common/.github/workflows/example.yml@main
     with:
       username: robot
   call-workflow-again:
     name: Run Tests
-    uses: seanshahkarami/common/.github/workflows/example.yml
+    uses: seanshahkarami/common/.github/workflows/example.yml@main
     with:
       username: bingbong
   call-workflow-final:
     name: Setup Docs
-    uses: seanshahkarami/common/.github/workflows/example.yml
+    uses: seanshahkarami/common/.github/workflows/example.yml@main
     with:
       username: wilson

@@ -4,7 +4,7 @@ on:
 jobs:
   call-workflow:
     name: Build Images
-    uses: ./workflows/example.yml@main
+    uses: seanshahkarami/.github/workflows/example.yml@main
     with:
       username: robot
   call-workflow-again:

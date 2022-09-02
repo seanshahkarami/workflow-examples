@@ -6,6 +6,7 @@ on:
         type: string
 jobs:
   reusable_workflow_job:
+    name: Test Reuse
     runs-on: ubuntu-latest
     steps:
       - run: echo "hello ${{ inputs.username }}"

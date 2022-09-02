@@ -3,14 +3,14 @@ on:
 
 jobs:
   call-workflow:
-    uses: seanshahkarami/reuse/.github/workflows/reuse.yml@main
+    uses: seanshahkarami/workflow-examples/.github/workflows/reuse.yml@main
     with:
       username: robot
   call-workflow-again:
-    uses: seanshahkarami/reuse/.github/workflows/reuse.yml@main
+    uses: seanshahkarami/workflow-examples/.github/workflows/reuse.yml@main
     with:
       username: bingbong
   call-workflow-final:
-    uses: seanshahkarami/reuse/.github/workflows/reuse.yml@main
+    uses: seanshahkarami/workflow-examples/.github/workflows/reuse.yml@main
     with:
       username: wilson

@@ -17,6 +17,7 @@ jobs:
     uses: seanshahkarami/actions/.github/workflows/example.yml@main
     with:
       username: wilson
+      repo: another-repo
   build:
     uses: seanshahkarami/actions/.github/workflows/go.yml@main
     with:
